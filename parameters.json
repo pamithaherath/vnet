@@ -23,7 +23,15 @@
       
         },
         "subnet2Prefix": {
-            "value": "10.0.1.0/24"
+            "value": "10.0.2.0/24"
+         
+        },
+        "subnet3Name": {
+            "value": "Subnet3"
+      
+        },
+        "subnet3Prefix": {
+            "value": "10.0.2.0/24"
          
         },
         "location": {

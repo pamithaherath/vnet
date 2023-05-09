@@ -29,6 +29,15 @@
         "type": "string",
         "defaultValue": "10.0.1.0/24"
       },
+      
+     "subnet3Name": {
+        "type": "string",
+        "defaultValue": "subnet3"
+     },
+     "subnet3Prefix": {
+        "type": "string",
+        "defaultValue": "10.0.2.0/24"
+      },
       "location": {
        "type": "string",
        "defaultValue": "australiaeast"
@@ -58,6 +67,12 @@
               "name": "[parameters('subnet2Name')]",
               "properties": {
                 "addressPrefix": "[parameters('subnet2Prefix')]"
+              }
+            },
+              {
+              "name": "[parameters('subnet3Name')]",
+              "properties": {
+                "addressPrefix": "[parameters('subnet3Prefix')]"
               }
             }
           ]

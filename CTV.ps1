@@ -1,6 +1,6 @@
 #This script will create fresh vnets on NINP-CTV subscription
 
-Select-AzSubscription -SubscriptionName "NINP-CTV"
+Select-AzSubscription -SubscriptionName "Visual Studio Enterprise Subscription"
 Write-Host "`n"
 Write-Host "`n"
 Write-Host "`n"
